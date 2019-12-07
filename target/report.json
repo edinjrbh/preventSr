@@ -1,0 +1,137 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Cadastrar Usuario",
+        "description": "",
+        "id": "navegar-protocommerce;cadastrar-usuario",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "que esteja na Home",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "preencher o formulario",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "acionar o botao Submit",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "o sistema exibe mensagem de sucesso",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Adicionar ao carrinho",
+        "description": "",
+        "id": "navegar-protocommerce;adicionar-ao-carrinho",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que esteja na pagina de produtos",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "acionar o botao Add de mais de um produto",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "acionar o botao Checkout",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "acionar o botao Continue Shopping",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "crio um novo step",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "o sistema retorna para a pagina de compras",
+            "match": {},
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "exibe no Checkout os produtos ja selecionados",
+            "match": {},
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Navegar ProtoCommerce",
+    "description": "Como usu�rio do site\nEu quero efetuar o cadstro\nPara que eu possa aefetuar compras",
+    "id": "navegar-protocommerce",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/java/features/protoCommerce.feature"
+  }
+]
